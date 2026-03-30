@@ -1,0 +1,121 @@
+{
+  "company": {
+    "name": "RSD Polymers",
+    "website": "www.rsdpolymers.com",
+    "headOffice": {
+      "address": "601, Sanjar Enclave, Khajuria Tank Road, off S.V Road, Opp. Milap Cinema, Kandivali West, Mumbai, Maharashtra, India 400067"
+    },
+    "factoryAddress": {
+      "address": "D12/4, MIDC Lote Parshuram, Khed, Ratnagiri, Maharashtra, India - 415722"
+    }
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Polyethylene (PE)",
+      "type": "Thermoplastic Polymer",
+      "description": "High-density polyethylene for industrial applications",
+      "specs": [
+        "Excellent chemical resistance",
+        "High durability and flexibility",
+        "Wide temperature range compatibility"
+      ],
+      "brochure": "/brochures/polyethylene.pdf"
+    },
+    {
+      "id": 2,
+      "name": "Polypropylene (PP)",
+      "type": "Thermoplastic Polymer",
+      "description": "Advanced polypropylene for specialized applications",
+      "specs": [
+        "Superior rigidity and strength",
+        "Outstanding thermal stability",
+        "Excellent moisture resistance"
+      ],
+      "brochure": "/brochures/polypropylene.pdf"
+    },
+    {
+      "id": 3,
+      "name": "Polyvinyl Chloride (PVC)",
+      "type": "Thermoplastic Polymer",
+      "description": "Professional-grade PVC for construction and industrial use",
+      "specs": [
+        "Flame-retardant properties",
+        "High impact resistance",
+        "Exceptional durability"
+      ],
+      "brochure": "/brochures/pvc.pdf"
+    },
+    {
+      "id": 4,
+      "name": "Polyethylene Terephthalate (PET)",
+      "type": "Thermoplastic Polymer",
+      "description": "Food-grade polymer for packaging applications",
+      "specs": [
+        "Crystal clear transparency",
+        "Barrier properties against gases",
+        "Recyclable and sustainable"
+      ],
+      "brochure": "/brochures/pet.pdf"
+    },
+    {
+      "id": 5,
+      "name": "Polystyrene (PS)",
+      "type": "Thermoplastic Polymer",
+      "description": "Lightweight polymer for insulation and packaging",
+      "specs": [
+        "Excellent insulation properties",
+        "Low density and lightweight",
+        "Easy to process and mold"
+      ],
+      "brochure": "/brochures/polystyrene.pdf"
+    }
+  ],
+  "teams": {
+    "sales": [
+      {
+        "id": "person1",
+        "fullName": "Vanita Lad",
+        "designation": "Sales & Marketing Manager",
+        "phone": "+91-8097194025",
+        "email": "vanita@rsdpolymers.com",
+        "website": "www.rsdpolymers.com"
+      },
+      {
+        "id": "person2",
+        "fullName": "Prathamesh Ambekar",
+        "designation": "Business Development Officer",
+        "phone": "+91-9082046976",
+        "email": "p.ambekar@rsdpolymers.com",
+        "website": "www.rsdpolymers.com"
+      },
+      {
+        "id": "person3",
+        "fullName": "Jolly Correia",
+        "designation": "Business Development Officer",
+        "phone": "+91-9136833546",
+        "email": "j.correia@rsdpolymers.com",
+        "website": "www.rsdpolymers.com"
+      },
+      {
+        "id": "person4",
+        "fullName": "Sumedh Waghmare",
+        "designation": "Business Development Officer",
+        "phone": "+91-8169840798",
+        "email": "s.waghmare@rsdpolymers.com",
+        "website": "www.rsdpolymers.com"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "person5",
+        "fullName": "Sumedh Waghmare",
+        "designation": "Business Development Officer",
+        "phone": "+91-8169840798",
+        "email": "s.waghmare@rsdpolymers.com",
+        "website": "www.rsdpolymers.com"
+      }
+      
+    ]
+  }
+}
