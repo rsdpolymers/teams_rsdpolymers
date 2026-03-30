@@ -74,7 +74,8 @@
   "teams": {
     "sales": [
       {
-        "id": "person1",
+        "id": "vanita",
+        "avatar": "/",
         "fullName": "Vanita Lad",
         "designation": "Sales & Marketing Manager",
         "phone": "+91-8097194025",
@@ -82,7 +83,7 @@
         "website": "www.rsdpolymers.com"
       },
       {
-        "id": "person2",
+        "id": "prathamesh",
         "fullName": "Prathamesh Ambekar",
         "designation": "Business Development Officer",
         "phone": "+91-9082046976",
@@ -90,7 +91,7 @@
         "website": "www.rsdpolymers.com"
       },
       {
-        "id": "person3",
+        "id": "jolly",
         "fullName": "Jolly Correia",
         "designation": "Business Development Officer",
         "phone": "+91-9136833546",
@@ -98,7 +99,7 @@
         "website": "www.rsdpolymers.com"
       },
       {
-        "id": "person4",
+        "id": "sumedh",
         "fullName": "Sumedh Waghmare",
         "designation": "Business Development Officer",
         "phone": "+91-8169840798",
@@ -108,11 +109,11 @@
     ],
     "purchase": [
       {
-        "id": "person5",
-        "fullName": "Sumedh Waghmare",
-        "designation": "Business Development Officer",
-        "phone": "+91-8169840798",
-        "email": "s.waghmare@rsdpolymers.com",
+        "id": "sahil",
+        "fullName": "Sahil Ranim",
+        "designation": "Purchase Executive",
+        "phone": "+91-7304241109",
+        "email": "purchase@rsdpolymers.com",
         "website": "www.rsdpolymers.com"
       }
       
