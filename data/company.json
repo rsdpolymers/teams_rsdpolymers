@@ -75,7 +75,6 @@
     "sales": [
       {
         "id": "vanita",
-        "avatar": "/",
         "fullName": "Vanita Lad",
         "designation": "Sales & Marketing Manager",
         "phone": "+91-8097194025",
@@ -96,7 +95,8 @@
         "designation": "Business Development Officer",
         "phone": "+91-9136833546",
         "email": "j.correia@rsdpolymers.com",
-        "website": "www.rsdpolymers.com"
+        "website": "www.rsdpolymers.com",
+        "avatar" : ""
       },
       {
         "id": "sumedh",
@@ -110,6 +110,7 @@
     "purchase": [
       {
         "id": "sahil",
+        "avatar": "",
         "fullName": "Sahil Ranim",
         "designation": "Purchase Executive",
         "phone": "+91-7304241109",

@@ -35,8 +35,19 @@ export default function PurchasePersonPage({ params }: { params: Promise<{ perso
         {/* Profile Card */}
         <div className="rounded-3xl bg-card border border-border p-6 sm:p-8 shadow-sm mb-8">
           <div className="flex gap-5 mb-6">
-            <div className="flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-br from-green-500 to-green-700 text-white font-bold text-4xl flex-shrink-0">
-              {person.fullName.charAt(0)}
+                <div className="h-24 w-24 rounded-full overflow-hidden flex-shrink-0 bg-muted">
+              {person.avatar ? (
+                <img
+                  src={person.avatar}
+                  alt={person.fullName}
+                  className="h-full w-full object-cover"
+                />
+              ) : (
+                  <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-blue-500 to-blue-700 text-white font-bold text-4xl">
+                    {person.fullName.charAt(0)}
+                  </div>
+                )
+              }
             </div>
             <div className="flex-1">
               <h1 className="text-3xl sm:text-4xl font-bold text-card-foreground mb-1">{person.fullName}</h1>
@@ -46,11 +57,11 @@ export default function PurchasePersonPage({ params }: { params: Promise<{ perso
 
           {/* Contact Info */}
           <div className="space-y-3 border-t border-border pt-6">
-            <a href={`tel:${person.phoneNumber}`} className="flex items-center gap-3 text-muted-foreground hover:text-green-600 transition-colors group">
+            <a href={`tel:${person.phone}`} className="flex items-center gap-3 text-muted-foreground hover:text-green-600 transition-colors group">
               <Phone size={20} className="text-green-600 flex-shrink-0" />
               <div>
                 <p className="text-xs text-muted-foreground uppercase tracking-wide">Phone</p>
-                <p className="text-card-foreground font-semibold">{person.phoneNumber}</p>
+                <p className="text-card-foreground font-semibold">{person.phone}</p>
               </div>
             </a>
             <a href={`mailto:${person.email}`} className="flex items-center gap-3 text-muted-foreground hover:text-green-600 transition-colors group">

@@ -44,13 +44,11 @@ export default function SalesPersonPage({ params }: { params: Promise<{ person: 
                   alt={person.fullName}
                   className="h-full w-full object-cover"
                 />
-              ) :
-                (
+              ) : (
                   <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-blue-500 to-blue-700 text-white font-bold text-4xl">
                     {person.fullName.charAt(0)}
                   </div>
                 )
-
               }
             </div>
             <div className="flex-1">
